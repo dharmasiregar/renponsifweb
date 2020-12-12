@@ -1,0 +1,75 @@
+ .html {
+                 background: url(ub.png) no-repeat  fixed;
+                 background-size:100% 100%;
+                 float: left;
+                 height:300px;
+                 
+
+
+
+                }
+  
+            .container {
+                width: 50%;
+                height:300%;
+
+            }
+            .header {                
+                height: 10%;
+                border: 2px solid  red;
+                font-size: 25px;
+                color:white; 
+                background:url(ub,png);
+               margin-top: +5px !important;
+                width:45%; 
+                height: 25px; 
+
+            }
+           
+            
+            .nevbar{
+                margin-top: +20px !important;/*untuk jarak dari navbar ke header.*/ 
+                border: 2px solid blue;
+                height: 20%;  
+                 width:45%; 
+            }
+
+            .nev{
+                list-style:none;
+                text-decoration: none;        
+                float: :left;
+
+
+            }
+            .nevbar li{
+            display:inline;/*tulisan vebarnya di dalam kotak garis solid border*/
+                }
+         .nevbar a{
+            display:inline-block;
+            padding:10px;/*untuk jagar antara item di nev bar*/
+            color:white;
+            }
+            .conten1{  margin-top: +20px !important;
+                border: 2px solid red;
+                width: 45%;  
+                margin-left:2px;/*untuk atur jarak antara konten*/
+                color: white;/*WARNA TULISAN PADA KONTEN*/
+             }
+              .conten2{ margin-top: +20px !important;
+                border: 2px solid yellow;
+                height:100%;/*untuk tinggi*/
+                width:45%; /*untuk lebar*/ 
+                margin-left:10px;/*untuk atur jarak antara konten*/
+                color: white;/*WARNA TULISAN PADA KONTEN*/
+                background-size: 30%;
+                background: url(p.png)no-repeat;
+
+            }
+
+                .footer{
+                margin-top: +100px !important;
+                border: 2px solid blue;
+                height: 5%;
+                width:45%;
+                color:white;
+                 }
